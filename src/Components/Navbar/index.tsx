@@ -42,12 +42,10 @@ const Navbar = () => {
   }, []);
 
   return (
-  <nav className="navbar navbar-expand-lg navbar-mainbg">
-    
+  <nav className="navbar navbar-expand-lg">
         <div className="logo">
           LOGO
         </div>
-
       <button 
         className="navbar-toggler"
         onClick={ function(){
@@ -56,7 +54,6 @@ const Navbar = () => {
         type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i className="fas fa-bars"></i>
       </button>
- 
       <div 
         className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
