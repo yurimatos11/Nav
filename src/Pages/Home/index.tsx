@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
      <img src={Wave} alt="wave" />
-      <h1>ola</h1>
+      <h1>Home</h1>
     </>
     
   )

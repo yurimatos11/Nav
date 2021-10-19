@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <img src={Wave} alt="wave" />
-      <h1>Ana</h1>
+      <h1>About</h1>
     </>
   )
 }

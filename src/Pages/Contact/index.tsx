@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
      <img src={Wave} alt="wave" />
-     <h1>Beatriz</h1>
+     <h1>Contact</h1>
     </>
   )
 }
