@@ -13,15 +13,19 @@
     color: #29e6c6;
     font-weight: bold;
   }
+  #navbarSupportedContent{
+    background-color: #29e6c6;
+  }
   #navbarSupportedContent ul {
     padding: .8rem;
     margin: 0px;
+    align-items: flex-end;
   }
   #navbarSupportedContent li {
     list-style-type: none;
   }
   #navbarSupportedContent ul li a {
-    color: #29e6c6;
+    color: #000;
     font-weight: bold;
     text-decoration: none;
     font-size: 1.6rem;
@@ -42,10 +46,12 @@
       color: #29e6c6;
       font-weight: bold;
     }
+    #navbarSupportedContent{
+      background-color: transparent;
+    }
     #navbarSupportedContent ul {
       padding: 0px;
       margin: 0px;
-      background-color: transparent;
       height: 40px;
     }
     #navbarSupportedContent li {

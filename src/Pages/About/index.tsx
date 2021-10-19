@@ -1,13 +1,15 @@
 import React from 'react'
+import './styles.scss';
+
+import Wave from '../../assets/img/wave1.svg';
+
+
 const About = () => {
   return (
-    <div className="container">
-    
-      <h1 className="text-center" style={{paddingTop: "30%"}}>
-        ABOUT
-      </h1>
-      
-    </div>
+    <>
+      <img src={Wave} alt="wave" />
+      <h1>Ana</h1>
+    </>
   )
 }
 export default About;
